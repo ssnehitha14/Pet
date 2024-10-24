@@ -250,7 +250,7 @@ public class Pet {
 
         for (String disease : responses.keySet()) {
             String[] symptoms = responses.get(disease);
-            int yesCount = 0;git
+            int yesCount = 0;gitgi
             for (String symptom : symptoms) {
                 if ("yes".equalsIgnoreCase(symptom)) {
                     yesCount++;
